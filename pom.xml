@@ -2,12 +2,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mkyong.common</groupId>
-  <artifactId>SpringExample</artifactId>
+  <artifactId>maven-spring</artifactId>
   <packaging>jar</packaging>
-  <version>2.0.3-SNAPSHOT</version>
-  <name>SpringExample</name>
-  <!--url>http://maven.apache.org</url-->
-
+  <version>1.0-SNAPSHOT</version>
+  <name>maven-spring</name>
+  <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,17 +14,6 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    
-    <!-- Spring framework -->
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring</artifactId>
-		<version>2.5.6</version>
-	</dependency> 
-  </dependencies>
-<profiles>
-<profile>
-     <id>spring-deploy</id>
  <distributionManagement>
     <repository>
       <id>maven-release</id>
@@ -38,6 +26,4 @@
       <url>http://http://ec2-13-59-209-26.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
-</profile>
-  </profiles>
 </project>
