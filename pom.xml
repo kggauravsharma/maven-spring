@@ -28,13 +28,13 @@
      <id>spring-deploy</id>
  <distributionManagement>
     <repository>
-      <id>maven-releases</id>
-      <name>maven-releases</name>
+      <id>maven-release</id>
+      <name>maven-release</name>
       <url>http://ec2-13-59-209-26.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-release/</url>
     </repository>
     <snapshotRepository>
-      <id>maven-snapshots</id>
-      <name>maven-snapshots</name>
+      <id>maven-snapshot</id>
+      <name>maven-snapshot</name>
       <url>http://http://ec2-13-59-209-26.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
