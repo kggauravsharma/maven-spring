@@ -14,7 +14,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    </dependencies>
+     <!-- Spring framework -->
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring</artifactId>
+		<version>2.5.6</version>
+	</dependency> 
+  </dependencies>
  <distributionManagement>
     <repository>
       <id>maven-release</id>
