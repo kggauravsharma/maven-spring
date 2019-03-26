@@ -12,7 +12,7 @@
     <repository>
       <id>my-repo2</id>
       <name>public</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/groups/public/</url>
+      <url>http://ip-172-31-24-29.us-east-2.compute.internal:8081/nexus/content/groups/public/</url>
     </repository>
     <repository>
       <id>my-repo1</id>
@@ -42,7 +42,7 @@
     <repository>
       <id>spring-releases</id>
       <name>spring-releases</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-releases/</url>
+      <url>http://ip-172-31-24-29.us-east-2.compute.internal:8081/nexus/content/repositories/spring-releases/</url>
     </repository>
     <snapshotRepository>
       <id>spring-snapshots</id>
